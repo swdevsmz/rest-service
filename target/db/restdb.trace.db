@@ -126,3 +126,7 @@ Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/00_work/9
 org.h2.jdbc.JdbcSQLException: SQLステートメントに文法エラーがあります "SELECT CURRENT_TIMESTAMP CREATE SCHEMA[*] REST "
 Syntax error in SQL statement "SELECT CURRENT_TIMESTAMP CREATE SCHEMA[*] REST "; SQL statement:
 SELECT CURRENT_TIMESTAMP CREATE SCHEMA rest [42000-197]
+2019-02-20 22:48:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: SQLステートメントに文法エラーがあります "CREATE TABLE IF EXISTS[*] TIME_EVENT ( ID INT PRIMARY KEY AUTO_INCREMENT, EVENT_DATE_TIME DATETIME ) "; 期待されるステートメント "NOT"
+Syntax error in SQL statement "CREATE TABLE IF EXISTS[*] TIME_EVENT ( ID INT PRIMARY KEY AUTO_INCREMENT, EVENT_DATE_TIME DATETIME ) "; expected "NOT"; SQL statement:
+CREATE TABLE IF EXISTS time_event ( id INT PRIMARY KEY AUTO_INCREMENT, event_date_time DATETIME ) [42001-197]

@@ -1,7 +1,0 @@
-spring:
-  driverClassName: org.h2.Driver
-  url: jdbc:h2:file:restdb;MODE=PostgreSQL
-  username: sa
-  password:
-  h2:
-    console.enabled: true
