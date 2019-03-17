@@ -14,3 +14,8 @@ CREATE TABLE IF NOT EXISTS  weight_history (
     measured_value decimal(5,1) NOT NULL,
     measured_date_time DATETIME
 );
+
+CREATE TABLE IF NOT EXISTS  hero (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name varchar(20)
+);

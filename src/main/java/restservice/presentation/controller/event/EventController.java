@@ -25,7 +25,7 @@ public class EventController {
     @RequestMapping(value = "/event/hello",method = RequestMethod.GET)
     public Map hello(){
         Map<String, Object> response = new HashMap<>();
-        response.put("response","hello");
+        response.put("response","hello yahoo");
         return response;
     }
 
