@@ -20,3 +20,6 @@ gradlew bootrun --debug-jvm
 
 実行  
 gradlew bootrun
+
+RestクライアントにはAdvanced REST clientを使用
+https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo/related?hl=ja
