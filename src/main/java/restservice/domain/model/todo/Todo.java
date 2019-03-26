@@ -2,79 +2,45 @@ package restservice.domain.model.todo;
 
 import java.io.Serializable;
 
-public class Todo implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+public class Todo {
 
     private Identifier identifier;
-    private String title;
-    private Boolean finished;
 
-    public Identifier getIdentifier() {
-        return identifier;
+    private Title title;
+
+    private Finished finished;
+
+    public Todo(){
+        identifier = new Identifier();
+        title = new Title();
+        finished = new Finished();
     }
 
-    public void setIdentifier(Identifier identifier) {
+    public Todo(Identifier identifier,Title title,Finished finished){
         this.identifier = identifier;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
         this.title = title;
-    }
-
-    public Boolean getFinished() {
-        return finished;
-    }
-
-    public void setFinished(Boolean finished) {
         this.finished = finished;
     }
 
-    //    private Identifier identifier;
-//
-//    private Title title;
-//
-//    private Finished finished;
-//
-//    public Todo(){
-//    }
-//
-//    public Todo(Identifier identifier,
-//                Title title,
-//                Finished finished){
-//        this.identifier = identifier;
-//        this.title = title;
-//        this.finished = finished;
-//    }
-//
-//    public Identifier getIdentifier() {
-//        return identifier;
-//    }
-//
-//    public void setIdentifier(Identifier identifier) {
-//        this.identifier = identifier;
-//    }
-//
-//    public Title getTitle() {
-//        return title;
-//    }
-//
-//    public void setTitle(Title title) {
-//        this.title = title;
-//    }
-//
-//    public Finished getFinished() {
-//        return finished;
-//    }
-//
-//    public void setFinished(Finished finished) {
-//        this.finished = finished;
-//    }
+    public Identifier identifier(){
+        return identifier;
+    }
 
+    public Title title(){
+        return title;
+    }
 
+    public Finished finished(){
+        return finished;
+    }
+
+    @Override
+    public String toString(){
+        return "Todo{" +
+                "identifier=" + identifier +
+                ", title=" + title +
+                ", finished=" + finished +
+                '}';
+    }
 
 }

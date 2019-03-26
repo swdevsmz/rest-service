@@ -2,9 +2,13 @@ package restservice.domain.model.todo;
 
 import java.io.Serializable;
 
-public class Finished implements Serializable {
+public class Finished {
 
     Boolean value;
+
+    public Finished(){
+
+    }
 
     public Finished(Boolean value){
         this.value = value;
@@ -18,4 +22,5 @@ public class Finished implements Serializable {
     public String toString(){
         return value.toString();
     }
+
 }

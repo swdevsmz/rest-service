@@ -5,20 +5,18 @@
 <mapper namespace="restservice.infrastructure.datasource.todo.TodoMapper">
 
     <resultMap id="todo" type="restservice.domain.model.todo.Todo">
-        <id property="Identifier.value" column="ID"/>
-        <result property="title" column="TITLE"/>
-        <result property="finished" column="FINISHED"/>
+        <id property="identifier.value" column="ID"/>
+        <result property="title.value" column="TITLE"/>
+        <result property="finished.value" column="FINISHED"/>
     </resultMap>
 
     <select id="selectByIdentifier" resultMap="todo">
         SELECT
-        ID
+            ID
             ,TITLE
             ,FINISHED
         FROM
             TODO
-        WEHRE
-            ID = 1
     </select>
 
 </mapper>

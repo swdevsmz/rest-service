@@ -19,3 +19,9 @@ CREATE TABLE IF NOT EXISTS  hero (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name varchar(20)
 );
+
+CREATE TABLE IF NOT EXISTS  todo (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    TITLE varchar(20),
+    FINISHED boolean,
+);

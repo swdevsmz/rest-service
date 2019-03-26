@@ -15,12 +15,11 @@ public class TodoServiceImpl implements TodoService {
 
     @Override
     public List<Todo> findAll() {
-        Todo todo1 = new Todo();
-        Identifier id = new Identifier();
-        id.setValue(2);
-        todo1.setIdentifier(id);
-        todo1.setTitle("タイトル");
-        todo1.setFinished(false);
-        return new ArrayList<Todo>(Arrays.asList(todo1));
+        Todo todo = new Todo(
+                    new Identifier(1),
+                    new Title("TODOです"),
+                    new Finished(false));
+
+        return new ArrayList<Todo>(Arrays.asList(todo));
     }
 }
