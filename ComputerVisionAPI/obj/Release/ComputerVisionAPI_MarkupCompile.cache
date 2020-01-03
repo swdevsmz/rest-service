@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\00_data\90_repos\rest-service\ComputerVisionAPI\obj\Debug\
+C:\00_data\90_repos\rest-service\ComputerVisionAPI\obj\Release\
 ComputerVisionAPI
 none
 false
-DEBUG;TRACE
+TRACE
 C:\00_data\90_repos\rest-service\ComputerVisionAPI\App.xaml
 11151548125
 
