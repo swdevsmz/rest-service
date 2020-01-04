@@ -2,84 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79b937c0-9b4f-429e-b542-61b319ce00c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/rest-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/restservice/domain/MessageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ComputerVisionAPI/obj/Debug/ComputerVisionAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ComputerVisionAPI/obj/Debug/ComputerVisionAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ComputerVisionAPI/obj/Debug/ComputerVisionAPI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ComputerVisionAPI/obj/Debug/ComputerVisionAPI.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ComputerVisionAPI/obj/Debug/ComputerVisionAPI_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ComputerVisionAPI/obj/Debug/ComputerVisionAPI_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ComputerVisionAPI/obj/Debug/ComputerVisionAPI_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/../ComputerVisionAPI/obj/Debug/ComputerVisionAPI_MarkupCompile.lref" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ComputerVisionAPI/obj/Debug/MainWindow.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/.gradle/4.10/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/.gradle/4.10/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/.gradle/4.10/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/.gradle/4.10/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/.gradle/4.10/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/azure-pipelines.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/build/classes/java/main/restservice/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/build/classes/java/main/restservice/infrastructure/datasource/event/EventData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/build/classes/java/main/restservice/infrastructure/datasource/event/EventMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/build/classes/java/main/restservice/presentation/controller/Event/EventController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/build/resources/main/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/build/resources/main/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/build/resources/main/restservice/infrastructure/datasource/event/EventMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/build/resources/main/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/application/aop/LogInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/application/config/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/application/service/todo/TodoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/application/service/todo/TodoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/domain/model/todo/Finished.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/domain/model/todo/Title.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/domain/model/todo/Todo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/infrastructure/datasource/event/EventData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/infrastructure/datasource/event/EventMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/infrastructure/datasource/hero/HeroMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/infrastructure/datasource/todo/TodoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/infrastructure/datasource/weight/WeightData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/infrastructure/datasource/weight/WeightMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/presentation/controller/event/EventController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/presentation/controller/todo/TodoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/java/restservice/presentation/controller/weight/WeightController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/resources/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/resources/restservice/infrastructure/datasource/event/EventMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/resources/restservice/infrastructure/datasource/hero/HeroMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/resources/restservice/infrastructure/datasource/todo/TodoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/resources/restservice/infrastructure/datasource/weight/WeightMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/src/main/resources/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/target/db/restdb.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/target/db/restdb.mv.db.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/target/db/restdb.trace.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/restservice/RestserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/restservice/presentation/RestserviceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/restservice/presentation/RestserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/restservice/RestServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,9 +57,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.restservice" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\00_data\90_repos\rest-service\server\src\main\resources" />
     </key>
@@ -157,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MessageTest">
+  <component name="RunManager" selected="Spring Boot.RestserviceApplication">
     <configuration name="MessageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restservice" />
       <extension name="coverage">
@@ -173,11 +106,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MessageTest.testMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.restservice.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.restservice.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.example.restservice.domain.MessageTest" />
+      <option name="METHOD_NAME" value="testMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RestserviceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restservice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.restservice.presentation.*" />
+          <option name="PATTERN" value="com.example.restservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,15 +166,17 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.RestserviceApplicationTests" />
+      <item itemvalue="JUnit.MessageTest" />
       <item itemvalue="Remote.RemoteDebug" />
       <item itemvalue="Spring Boot.RestserviceApplication" />
-      <item itemvalue="JUnit.MessageTest" />
+      <item itemvalue="JUnit.MessageTest.testMessage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MessageTest" />
         <item itemvalue="Spring Boot.RestserviceApplication" />
         <item itemvalue="JUnit.RestserviceApplicationTests" />
+        <item itemvalue="JUnit.MessageTest" />
+        <item itemvalue="JUnit.MessageTest.testMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +195,8 @@
       <workItem from="1560429752143" duration="1134000" />
       <workItem from="1561733389995" duration="663000" />
       <workItem from="1565446674680" duration="18000" />
-      <workItem from="1578060400910" duration="940000" />
+      <workItem from="1578060400910" duration="1385000" />
+      <workItem from="1578142189714" duration="1876000" />
     </task>
     <task id="LOCAL-00001" summary="controllerの追加">
       <created>1556543133795</created>
@@ -260,16 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1556546293921</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Messageクラスのテストコードの追加">
+      <created>1578061444020</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578061444020</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="RestserviceApplicationTests - 2019.04.29 at 22h 50m 41s.xml">
-      <configuration name="RestserviceApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestserviceApplicationTests - 2019.04.29 at 22h 53m 16s.xml">
-      <configuration name="RestserviceApplicationTests" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,7 +239,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -297,7 +250,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="controllerの追加" />
     <MESSAGE value="テストコードの追加" />
-    <option name="LAST_COMMIT_MESSAGE" value="テストコードの追加" />
+    <MESSAGE value="Messageクラスのテストコードの追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="Messageクラスのテストコードの追加" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

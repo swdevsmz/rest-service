@@ -1,8 +1,8 @@
-package com.example.restservice.presentation;
+package com.example.restservice;
 
 import com.example.restservice.presentation.HelloRestController;
-import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class RestserviceApplicationTests {
+public class RestServiceApplicationTests {
 
 	@Test
 	public void contextLoads() {
@@ -21,8 +21,6 @@ public class RestserviceApplicationTests {
 	public void testShowHelloWorld() throws Exception{
 		HelloRestController hello = new HelloRestController();
 		String message = hello.showHelloWorld();
-		assertThat(message,is("hello world"));
-
+		assertThat(message, is("hello world"));
 	}
-
 }
