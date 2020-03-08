@@ -3,6 +3,7 @@ package com.example.restservice;
 import com.example.restservice.presentation.HelloRestController;
 import org.junit.runner.RunWith;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -13,14 +14,16 @@ import static org.junit.Assert.*;
 @SpringBootTest
 public class RestServiceApplicationTests {
 
+	@Autowired
+	HelloRestController helloRestController;
+
 	@Test
 	public void contextLoads() {
 	}
 
 	@Test
 	public void testShowHelloWorld() throws Exception{
-		HelloRestController hello = new HelloRestController();
-		String message = hello.showHelloWorld();
+		String message = helloRestController.showHelloWorld();
 		assertThat(message, is("hello world"));
 	}
 }
