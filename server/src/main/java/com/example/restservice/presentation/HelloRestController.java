@@ -22,8 +22,7 @@ public class HelloRestController {
 
   @GetMapping
   @RequestMapping("messagesource")
-  public String showMessage(){
+  public String showMessage() {
     return messageSource.getMessage("key", null, Locale.getDefault());
   }
-
 }
