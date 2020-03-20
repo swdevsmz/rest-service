@@ -13,3 +13,17 @@ C:\00_data\90_repos\csharp\ComputerVisionAPI\obj\Debug\ComputerVisionAPI.csproj.
 C:\00_data\90_repos\csharp\ComputerVisionAPI\obj\Debug\ComputerVisionAPI.csproj.CoreCompileInputs.cache
 C:\00_data\90_repos\csharp\ComputerVisionAPI\obj\Debug\ComputerVisionAPI.exe
 C:\00_data\90_repos\csharp\ComputerVisionAPI\obj\Debug\ComputerVisionAPI.pdb
+C:\00_data\90_repos\rest-service\ComputerVisionAPI\bin\Debug\ComputerVisionAPI.exe.config
+C:\00_data\90_repos\rest-service\ComputerVisionAPI\bin\Debug\ComputerVisionAPI.exe
+C:\00_data\90_repos\rest-service\ComputerVisionAPI\bin\Debug\ComputerVisionAPI.pdb
+C:\00_data\90_repos\rest-service\ComputerVisionAPI\obj\Debug\ComputerVisionAPI.csprojAssemblyReference.cache
+C:\00_data\90_repos\rest-service\ComputerVisionAPI\obj\Debug\MainWindow.g.cs
+C:\00_data\90_repos\rest-service\ComputerVisionAPI\obj\Debug\App.g.cs
+C:\00_data\90_repos\rest-service\ComputerVisionAPI\obj\Debug\ComputerVisionAPI_MarkupCompile.cache
+C:\00_data\90_repos\rest-service\ComputerVisionAPI\obj\Debug\ComputerVisionAPI_MarkupCompile.lref
+C:\00_data\90_repos\rest-service\ComputerVisionAPI\obj\Debug\MainWindow.baml
+C:\00_data\90_repos\rest-service\ComputerVisionAPI\obj\Debug\ComputerVisionAPI.g.resources
+C:\00_data\90_repos\rest-service\ComputerVisionAPI\obj\Debug\ComputerVisionAPI.Properties.Resources.resources
+C:\00_data\90_repos\rest-service\ComputerVisionAPI\obj\Debug\ComputerVisionAPI.csproj.GenerateResource.cache
+C:\00_data\90_repos\rest-service\ComputerVisionAPI\obj\Debug\ComputerVisionAPI.exe
+C:\00_data\90_repos\rest-service\ComputerVisionAPI\obj\Debug\ComputerVisionAPI.pdb
