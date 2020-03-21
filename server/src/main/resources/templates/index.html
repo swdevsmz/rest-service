@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <h1>ページです</h1>
+    <p>
+        <span th:text="${index}">index</span>
+        <ul>
+            <li><a href="/api/hello/show">hello</a> </li>
+            <li><a href="/api/hello/messagesource">messagesource</a> </li>
+            <li><a href="/message">message</a> </li>
+        </ul>
+    </p>
+</body>
+</html>
