@@ -22,6 +22,11 @@ public class MessagesRestController {
     this.jdbcTemplate = jdbcTemplate;
   }
 
+  /**
+   * メッセージを取得します.
+   *
+   * @return メッセージ
+   */
   @RequestMapping(method = RequestMethod.GET)
   public List<Message> getMessages() {
     return jdbcTemplate.query(
@@ -33,6 +38,12 @@ public class MessagesRestController {
         });
   }
 
+  /**
+   * メッセージを投稿します.
+   *
+   * @param message メッセージ
+   * @return メッセージ
+   */
   @RequestMapping(method = RequestMethod.POST)
   public Message postMessage(@RequestBody Message message) {
     jdbcTemplate.update("INSERT INTO messages(text) VALUES (?)", message.getText());

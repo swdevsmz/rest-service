@@ -5,9 +5,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 public class UserController {
 
-
   @GetMapping("/user")
-  public ModelAndView get(){
+  public ModelAndView get() {
     return new ModelAndView();
   }
 }

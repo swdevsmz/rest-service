@@ -11,6 +11,11 @@ public class AppConfig {
   @Value("${sample.world:World}")
   String world;
 
+  /**
+   * wordモデルを取得します.
+   *
+   * @return wordモデル
+   */
   @Bean
   public WorldModel worldModel() {
     WorldModel model = new WorldModel();

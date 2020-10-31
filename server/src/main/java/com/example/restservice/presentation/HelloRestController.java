@@ -30,7 +30,7 @@ public class HelloRestController {
   }
 
   @GetMapping
-  @RequestMapping("messagesource")
+  @RequestMapping("messageSource")
   public String showMessage() {
     return messageSource.getMessage("key", null, Locale.getDefault());
   }
@@ -40,6 +40,12 @@ public class HelloRestController {
     return worldModel;
   }
 
+  /**
+   * wordを設定します.
+   *
+   * @param worldModel ワード
+   * @return ワード
+   */
   @PostMapping(value = "/world")
   public WorldModel setWorld(@RequestBody WorldModel worldModel) {
     this.worldModel.setValue(worldModel.getValue());
