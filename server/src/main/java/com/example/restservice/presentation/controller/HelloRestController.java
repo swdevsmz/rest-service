@@ -1,7 +1,6 @@
-package com.example.restservice.presentation;
+package com.example.restservice.presentation.controller;
 
-import com.example.restservice.domain.WorldModel;
-import java.util.Locale;
+import com.example.restservice.domain.WordModel;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Locale;
+
 @RestController
 @RequestMapping("api/hello")
 @RequiredArgsConstructor
@@ -21,7 +22,7 @@ public class HelloRestController {
 
   private final MessageSource messageSource;
 
-  private final WorldModel worldModel;
+  private final WordModel wordModel;
 
   @GetMapping
   @RequestMapping("show")
@@ -36,21 +37,21 @@ public class HelloRestController {
   }
 
   @GetMapping(value = "/world")
-  public WorldModel world() {
-    return worldModel;
+  public WordModel world() {
+    return wordModel;
   }
 
   /**
    * wordを設定します.
    *
-   * @param worldModel ワード
+   * @param wordModel ワード
    * @return ワード
    */
   @PostMapping(value = "/world")
-  public WorldModel setWorld(@RequestBody WorldModel worldModel) {
-    this.worldModel.setValue(worldModel.getValue());
-    logger.info("set value : {}", worldModel.getValue());
-    return worldModel;
+  public WordModel setWorld(final @RequestBody WordModel wordModel) {
+    this.wordModel.setValue(wordModel.getValue());
+    logger.info("set value : {}", wordModel.getValue());
+    return wordModel;
   }
 
 }

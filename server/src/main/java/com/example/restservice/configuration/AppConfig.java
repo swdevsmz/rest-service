@@ -1,6 +1,6 @@
 package com.example.restservice.configuration;
 
-import com.example.restservice.domain.WorldModel;
+import com.example.restservice.domain.WordModel;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,8 +17,8 @@ public class AppConfig {
    * @return wordモデル
    */
   @Bean
-  public WorldModel worldModel() {
-    WorldModel model = new WorldModel();
+  public WordModel wordModel() {
+    final WordModel model = new WordModel();
     model.setValue(world);
     return model;
   }

@@ -1,20 +1,17 @@
-package com.example.restservice.presentation;
+package com.example.restservice.presentation.controller;
 
 import com.example.restservice.domain.Message;
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
 
 @RestController
 @RequestMapping("messages")
 public class MessagesRestController {
-
-  final List<Message> messages = new CopyOnWriteArrayList<>();
 
   private final JdbcTemplate jdbcTemplate;
 
