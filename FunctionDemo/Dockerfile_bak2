@@ -1,0 +1,9 @@
+FROM public.ecr.aws/lambda/provided:al2
+COPY ./src/shell/bootstrap ${LAMBDA_RUNTIME_DIR}
+COPY ./target/function-demo ${LAMBDA_TASK_ROOT}
+CMD ["org.springframework.cloud.function.adapter.aws.FunctionInvoker::handleRequest"]
+
+# FROM public.ecr.aws/lambda/provided:al2
+# COPY bootstrap ${LAMBDA_RUNTIME_DIR}
+# COPY function.sh ${LAMBDA_TASK_ROOT}
+# CMD [ "function.handler" ]
